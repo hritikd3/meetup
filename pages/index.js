@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
           <p className='text-center md:text-left w-8/12 mb-4'>
             Transforming ideas into reality to boost productivity, increase
-            efficiency, and drive results.
+            efficiency, and drive results !!
           </p>
 
           <div className='flex w-full max-w-sm items-center space-x-2'>
