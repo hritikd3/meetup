@@ -2,8 +2,7 @@
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 import { ThemeProvider } from "../context/ThemeContext";
-import ThemeWrapper from "../components/ThemeWrapper"; // Add the correct path
-
+import ThemeWrapper from "../components/ThemeWrapper";
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>

@@ -3,8 +3,7 @@ import React, { useContext } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/button';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/solid';
-import { ThemeContext } from '../context/ThemeContext'; // Add the correct path
-
+import { ThemeContext } from '../context/ThemeContext'; 
 const Navbar = () => {
   const { toggleTheme, theme } = useContext(ThemeContext);
 
